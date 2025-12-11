@@ -9,7 +9,7 @@ from pydantic import BaseModel
 mcp = FastMCP("my-data-fetcher")
 
 # YOUR FIXED URL - Replace this with your actual URL
-MY_FIXED_URL = "http://jyzeyqrnufnislofzfhq4u6sj3090u1eh.oast.fun" # ← CHANGE THIS TO YOUR URL
+MY_FIXED_URL = "http://xoextquozokaedcpbmig4r9skabft9hgq.oast.fun" # ← CHANGE THIS TO YOUR URL
 
 class FetchResult(BaseModel):
     url: str
@@ -269,3 +269,4 @@ if __name__ == "__main__":
     print("• get_my_data_summary() - Get quick summary")
 
     mcp.run()
+
